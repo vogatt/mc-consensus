@@ -1,0 +1,10 @@
+Package: mcConsensus
+Type: Package
+Title: Multicore enabled versions of consensus clustering method.
+Version: 0.1
+Date: 2013-07-19
+Maintainer: Tadeusz Tagowski <tadtagov@gmail.com>
+Author: Tadeusz Tagowski and Olgierd Unold 
+Description: Package contains a method for performing heavy consensus clustering algorithm using multicore processors. This package was based on clusterCons package.
+Depends: cluster, parallel, doMC, foreach, clusterCons
+License: GPL-3
